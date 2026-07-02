@@ -23,7 +23,6 @@ Build strong Go fundamentals for backend development and SDE interviews.
 
 - Arrays & Slices
 - Maps
-- Structs
 - Interfaces
 - Goroutines
 - Channels

@@ -1,13 +1,30 @@
 # Go Practice
 
-Learning Go from fundamentals to backend development.
+A repository documenting my journey of learning **Go (Golang)** from the fundamentals to backend development. This repository contains hands-on coding exercises, algorithm implementations, and mini projects that strengthen my understanding of Go.
 
-## Topics Covered
+---
 
-- Variables
-- Functions
-- Loops
+## 🎯 Goal
+
+- Build strong Go fundamentals
+- Learn idiomatic Go programming
+- Prepare for Backend Engineering interviews
+- Build production-ready backend applications using Go
+
+---
+
+## 📚 Topics Covered
+
+### ✅ Go Basics
+- Variables & Constants
+- Data Types
+- Operators
+- Input & Output
 - Conditionals
+- Loops
+- Functions
+
+### ✅ Problem Solving
 - Factorial
 - Fibonacci
 - Palindrome
@@ -15,16 +32,101 @@ Learning Go from fundamentals to backend development.
 - Count Digits
 - Sum of Digits
 
-## Goal
+### ✅ Arrays & Slices
+- Sum of Elements
+- Maximum & Minimum
+- Average
+- Linear Search
+- Count Occurrences
+- Reverse Array
+- Check Sorted Array
+- Second Largest Element
+- Rotate Left / Right
+- Merge Arrays
+- Remove Duplicates
+- Missing Number
 
-Build strong Go fundamentals for backend development and SDE interviews.
+### ✅ Structs
+- Struct Creation
+- Nested Structs
+- Pointers with Structs
+- JSON Tags
+- JSON Marshalling
 
-## Next Topics
+### ✅ Maps
+- CRUD Operations
+- Key Existence Check
+- Frequency Counting
+- First Non-Repeating Element
+- Most Frequent Element
+- Remove Duplicates
+- Two Sum
+- Inventory Management System
 
-- Arrays & Slices
-- Maps
+---
+
+## 📂 Repository Structure
+
+```
+Go/
+├── 01-basics/
+├── 02-struct/
+├── 03-Arrays/
+├── 04-Maps/
+```
+
+---
+
+## 🚀 Upcoming Topics
+
+- Methods
 - Interfaces
-- Goroutines
-- Channels
+- Packages
+- Error Handling
+- File I/O
+- Concurrency (Goroutines & Channels)
+- Context
+- HTTP Server
+- JSON Handling
+- Testing
+- Database (PostgreSQL)
 - REST APIs
-- 
+- gRPC
+- Authentication & JWT
+- Microservices
+
+---
+
+## 🛠️ Learning Approach
+
+- Learn the concept
+- Implement from scratch
+- Solve practice problems
+- Build mini projects
+- Follow idiomatic Go practices
+
+---
+
+## 📈 Progress
+
+- [x] Basics
+- [x] Functions
+- [x] Arrays
+- [x] Slices
+- [x] Structs
+- [x] Maps
+- [ ] Methods
+- [ ] Interfaces
+- [ ] Packages
+- [ ] Error Handling
+- [ ] File I/O
+- [ ] Goroutines
+- [ ] Channels
+- [ ] HTTP Server
+- [ ] REST APIs
+
+---
+
+## 🎯 Long-Term Goal
+
+Use Go to build scalable backend systems, REST APIs, distributed services, and microservices while preparing for Backend Software Engineer roles.

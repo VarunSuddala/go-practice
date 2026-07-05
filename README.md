@@ -115,7 +115,7 @@ Go/
 - [x] Slices
 - [x] Structs
 - [x] Maps
-- [ ] Methods
+- [x] Methods
 - [ ] Interfaces
 - [ ] Packages
 - [ ] Error Handling

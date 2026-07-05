@@ -106,8 +106,7 @@ Go/
 - Follow idiomatic Go practices
 
 ---
-
-## 📈 Progress
+# 📈 Progress
 
 - [x] Basics
 - [x] Functions
@@ -116,15 +115,20 @@ Go/
 - [x] Structs
 - [x] Maps
 - [x] Methods
-- [ ] Interfaces
+- [ ] Anonymous Functions
+- [ ] Closures
 - [ ] Packages
+- [ ] Interfaces
 - [ ] Error Handling
 - [ ] File I/O
-- [ ] Goroutines
+- [ ] Generics
+- [ ] Concurrency (Goroutines)
 - [ ] Channels
+- [ ] Context
+- [ ] JSON
 - [ ] HTTP Server
 - [ ] REST APIs
-
+- [ ] Testing
 ---
 
 ## 🎯 Long-Term Goal

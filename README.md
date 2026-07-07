@@ -1,21 +1,23 @@
 # Go Practice
 
-A repository documenting my journey of learning **Go (Golang)** from the fundamentals to backend development. This repository contains hands-on coding exercises, algorithm implementations, and mini projects that strengthen my understanding of Go.
+A repository documenting my journey of learning **Go (Golang)** from the fundamentals to backend development. This repository contains hands-on coding exercises, algorithms, design patterns, and mini projects to build strong Go programming skills.
 
 ---
 
-## 🎯 Goal
+# 🎯 Goals
 
 - Build strong Go fundamentals
 - Learn idiomatic Go programming
+- Strengthen problem-solving skills
 - Prepare for Backend Engineering interviews
-- Build production-ready backend applications using Go
+- Build production-ready backend applications with Go
 
 ---
 
-## 📚 Topics Covered
+# 📚 Topics Covered
 
-### ✅ Go Basics
+## ✅ Go Basics
+
 - Variables & Constants
 - Data Types
 - Operators
@@ -24,7 +26,8 @@ A repository documenting my journey of learning **Go (Golang)** from the fundame
 - Loops
 - Functions
 
-### ✅ Problem Solving
+## ✅ Problem Solving
+
 - Factorial
 - Fibonacci
 - Palindrome
@@ -32,7 +35,8 @@ A repository documenting my journey of learning **Go (Golang)** from the fundame
 - Count Digits
 - Sum of Digits
 
-### ✅ Arrays & Slices
+## ✅ Arrays & Slices
+
 - Sum of Elements
 - Maximum & Minimum
 - Average
@@ -46,14 +50,16 @@ A repository documenting my journey of learning **Go (Golang)** from the fundame
 - Remove Duplicates
 - Missing Number
 
-### ✅ Structs
+## ✅ Structs
+
 - Struct Creation
 - Nested Structs
-- Pointers with Structs
+- Struct Pointers
 - JSON Tags
 - JSON Marshalling
 
-### ✅ Maps
+## ✅ Maps
+
 - CRUD Operations
 - Key Existence Check
 - Frequency Counting
@@ -63,49 +69,92 @@ A repository documenting my journey of learning **Go (Golang)** from the fundame
 - Two Sum
 - Inventory Management System
 
+## ✅ Methods
+
+- Value Receivers
+- Pointer Receivers
+- Method Sets
+- Real-world Models
+  - Book
+  - Product
+  - Bank Account
+  - Employee
+
+## ✅ Anonymous Functions
+
+- Anonymous Functions
+- Immediate Function Invocation (IIFE)
+- Function Variables
+- Functions as Parameters
+- Functions as Return Values
+
+## ✅ Closures
+
+- Counter Generator
+- ID Generator
+- Wallet
+- Bank Account
+- Rate Limiter
+- URL Shortener
+- Shopping Cart
+- Fibonacci Generator
+- Prime Number Generator
+- Even Number Generator
+- Discount Factory
+- Multiplier Factory
+
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
-```
+```text
 Go/
-├── 01-basics/
-├── 02-struct/
-├── 03-Arrays/
+├── 01-Basics/
+├── 02-Structs/
+├── 03-Arrays-Slices/
 ├── 04-Maps/
+├── 05-Methods/
+├── 06-Anonymous-Functions/
+├── 07-Closures/
 ```
 
 ---
 
-## 🚀 Upcoming Topics
+# 🚀 Upcoming Topics
 
-- Methods
-- Interfaces
 - Packages
+- Interfaces
 - Error Handling
 - File I/O
-- Concurrency (Goroutines & Channels)
+- Generics
+- Goroutines
+- Channels
 - Context
+- JSON
 - HTTP Server
-- JSON Handling
+- REST APIs
 - Testing
 - Database (PostgreSQL)
-- REST APIs
+- Authentication (JWT)
+- Middleware
 - gRPC
-- Authentication & JWT
+- Docker
+- Project Structure
 - Microservices
 
 ---
 
-## 🛠️ Learning Approach
+# 🛠️ Learning Approach
 
-- Learn the concept
-- Implement from scratch
-- Solve practice problems
+- Learn each concept from first principles
+- Implement everything from scratch
+- Solve multiple practice problems
 - Build mini projects
 - Follow idiomatic Go practices
+- Write clean and maintainable code
 
 ---
+
 # 📈 Progress
 
 - [x] Basics
@@ -129,8 +178,27 @@ Go/
 - [ ] HTTP Server
 - [ ] REST APIs
 - [ ] Testing
+
 ---
 
-## 🎯 Long-Term Goal
+# 🎯 Long-Term Goal
 
-Use Go to build scalable backend systems, REST APIs, distributed services, and microservices while preparing for Backend Software Engineer roles.
+Become a proficient **Backend Software Engineer** by mastering Go and building scalable, production-ready backend systems.
+
+Future focus includes:
+
+- REST APIs
+- Concurrent Systems
+- PostgreSQL
+- Authentication & Authorization
+- Docker
+- Microservices
+- gRPC
+- Distributed Systems
+- Cloud-Native Backend Development
+
+---
+
+## ⭐ Philosophy
+
+> "Don't just learn Go syntax. Learn how to think like a Go backend engineer."

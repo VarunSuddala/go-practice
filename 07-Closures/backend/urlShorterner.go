@@ -1,21 +1,37 @@
 package main
 
-import "fmt"
+import (
+	"math/rand"
+	"time"
+)
 
 func urlShortener() (func(string) string, func(string) string) {
-	count := 0
-	db := make(map[string]string)
+	rand.Seed(time.Now().UnixNano())
 
-	shortener := func(orginal string) string {
-		count++
+	shortToOriginal := make(map[string]string)
+	originalToShort := make(map[string]string)
 
-		short := fmt.Sprintf("url%d", count)
-		db[short] = orginal
+	shortener := func(original string) string {
+		chars := "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+		if short, ok := originalToShort[original]; ok {
+			return short
+		}
+		for {
+			code := make([]byte, 6)
+			for i := range code {
+				code[i] = chars[rand.Intn(len(chars))]
+			}
+			short := "url" + string(code)
 
-		return short
+			if _, exists := shortToOriginal[short]; !exists {
+				originalToShort[original] = short
+				shortToOriginal[short] = original
+				return short
+			}
+		}
 	}
 	resolve := func(url string) string {
-		return db[url]
+		return shortToOriginal[url]
 	}
 	return shortener, resolve
 }

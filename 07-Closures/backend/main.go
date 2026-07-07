@@ -63,7 +63,8 @@ func main() {
 
 	shortener, reslove := urlShortener()
 
-	fmt.Println(shortener("varun123"))
-	fmt.Println(reslove("url1"))
+	u1 := shortener("varunsuddala.me")
+	fmt.Println(u1)
+	fmt.Println(reslove(u1))
 
 }

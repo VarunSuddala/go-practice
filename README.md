@@ -115,8 +115,8 @@ Go/
 - [x] Structs
 - [x] Maps
 - [x] Methods
-- [ ] Anonymous Functions
-- [ ] Closures
+- [x] Anonymous Functions
+- [x] Closures
 - [ ] Packages
 - [ ] Interfaces
 - [ ] Error Handling

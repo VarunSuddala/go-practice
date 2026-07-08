@@ -116,13 +116,13 @@ Go/
 ├── 05-Methods/
 ├── 06-Anonymous-Functions/
 ├── 07-Closures/
+├── 08-package/
 ```
 
 ---
 
 # 🚀 Upcoming Topics
 
-- Methods
 - Interfaces
 - Error Handling
 - File I/O
@@ -166,7 +166,7 @@ Go/
 - [x] Methods
 - [x] Anonymous Functions
 - [x] Closures
-- [ ] Packages
+- [x] Packages
 - [ ] Interfaces
 - [ ] Error Handling
 - [ ] File I/O

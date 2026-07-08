@@ -79,7 +79,6 @@ Go/
 
 ## 🚀 Upcoming Topics
 
-- Methods
 - Interfaces
 - Packages
 - Error Handling
